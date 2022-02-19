@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: "Roboto";
+}
+body{
+    margin: 0;
+}
+header {
+    background-color: #1F2937;
+    padding:  10px 20px 10px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bolder;
+    color : #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+    justify-content: space-evenly;
+    gap : 20px;
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 50px;
+
+    display: flex;
+    gap : 50px;
+    justify-content: center;
+    align-content: center;
+}
+.hero .left {
+    width: 500px;
+}
+.hero .title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.hero .subtext {
+    color : #e5e7eb;
+    font-size: 18px;
+}
+.hero .image {
+    background-color: gray;
+    width: 400px;
+    display: flex;
+
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.signup {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap : 100px;
+
+    margin: 40px 0;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: bold;
+}
+.card {
+    width: 200px;
+}
+
+.placeholder {
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 15%;
+
+    width: 200px;
+    height: 200px;
+}
