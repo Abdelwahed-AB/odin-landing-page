@@ -35,12 +35,12 @@ a {
 
 .hero {
     background-color: #1F2937;
-    padding: 50px;
+    padding: 100px;
 
     display: flex;
     gap : 50px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .hero .left {
     width: 500px;
@@ -49,6 +49,7 @@ a {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    margin-top: 0px;
 }
 .hero .subtext {
     color : #e5e7eb;
@@ -56,7 +57,8 @@ a {
 }
 .hero .image {
     background-color: gray;
-    width: 400px;
+    width: 500px;
+    align-self: stretch;
     display: flex;
 
     flex-direction: column;
@@ -85,7 +87,7 @@ a {
 
 .info {
     text-align: center;
-    margin-top: 40px;
+    padding: 10px;
 }
 
 .info .title {
@@ -103,4 +105,16 @@ a {
 
     width: 200px;
     height: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+.quote .text{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.quote .author {
+
 }
