@@ -167,3 +167,10 @@ a {
     color: #e5e7eb;
     background-color: #3882f6;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 10px;
+}
