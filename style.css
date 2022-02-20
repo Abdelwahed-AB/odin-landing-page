@@ -109,12 +109,20 @@ a {
 
 .quote {
     background-color: #e5e7eb;
+    padding: 100px;
 }
 .quote .text{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
+
+    font-size: 36px;
+    font-style: italic;
 }
 
 .quote .author {
+    max-width: 600px;
+    margin: 15px auto;
+    text-align: end;
 
+    font-weight: bolder;
 }
